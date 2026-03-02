@@ -14,6 +14,8 @@ const divide = (arr, n) => {
 			subArrSum=arr[i];
 		}
 	}
+	// push the last chunk
+  if (subArr.length !== 0) ans.push(subArr);  
 	return ans;
 };
 
